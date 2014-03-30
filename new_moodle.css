@@ -1,0 +1,71 @@
+/*
+Change 1
+Color of the background
+*/
+html {
+    background-color: #ddd;
+}
+
+/*
+Change 2
+log in in a different box
+try and make relative and not fixed - Didn't succeed :(
+position:relative;
+    left:200px;
+    top:0px;
+    z-index:-1;
+*/
+#inst22008 {
+    position: fixed;
+    top: 70px;
+    left: 200px;
+}
+
+/*
+Change 3
+links color
+*/
+a {
+    color: #2db0ff;
+}
+
+/*
+Change 4
+hebrew language button - change it
+i used a css button generator :(
+*/
+.langmenu {
+    border-top: 1px solid #e3e3e3;
+    background: #e3e3e3;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: black;
+    font-size: 10px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+/*
+Change 5
+head of box - background color instead of gradient
+            - remove gradient effect
+*/
+
+.header, .navbar, .author {
+    background-image: none;
+}
+
+/*
+Change 6 !!
+titles font size
+*/
+.title {
+    font-size: 17px;
+
+}
