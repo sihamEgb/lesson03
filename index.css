@@ -1,0 +1,22 @@
+html {
+    font-size: 1em;
+    font-family: arial;
+    line-height: 1.4;
+    color: black;
+    background-image: url('https://lh4.googleusercontent.com/-A0CGmmAeat8/Ul9xfb_bZpI/AAAAAAAAAyc/gOCBRnP8gc0/w824-h553-no/DSC_0318.JPG');
+    background-size: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff8f3a;
+}
+
+a:active {
+    text-decoration: underline;
+
+}
