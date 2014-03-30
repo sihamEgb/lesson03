@@ -1,0 +1,67 @@
+body{
+
+    /*margin-right: 150px;*/
+    background-image: url('http://wallpaperwonder.com/wp-content/uploads/2014/03/Golden-Tree-Wallpaper.jpg');
+    width: 500px;
+    height: 150px;
+
+
+
+
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    width:50%;
+    float:left;
+    background-color: white;
+}
+
+
+.tweet{
+    background-color: white;
+    position: relative;
+    padding: 20px 12px;
+    border-bottom-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #e8e8e8;
+    border-radius:25px;
+    margin-left: 350px;
+    margin-right: -350px;
+    margin-down: 350px;
+
+}
+
+#full-name {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+body.user-name {
+    font-size: 10px;
+    color: rgba(41, 47, 51, 0.35);
+}
+
+#comment{
+    background-color: #d6fcff;
+    position: relative;
+    padding: 20px 12px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e8e8e8;
+    border-radius:25px;
+    margin-left: 350px;
+    margin-right: -350px;
+
+}
+#tweet-content{
+    font-size: 30px;
+}
+
+
+#follow {
+    float: right;
+    color: black;
+    font-weight: bold;
+
+}
+
